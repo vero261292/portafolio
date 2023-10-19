@@ -1,8 +1,82 @@
-body {
-  background-color: black;
-  color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+  /* Header height  */
+  --heder-height: 56px;
+  /*colors*/
+  --primary-color: #000;
+  --principal-text: #9ba4ed;
+  --secundary-text: #fff;
+  --color-object: #3E3C3C;
+  /* Font and typography */
+  --big-font: 4rem;
+  --medium-font: 1.5rem;
+  --normal-font: 1rem;
+  --small-font: 0.8rem;
+  --tiny-font: 0.75rem;
+
+  /* Font weight */
+  --font-tiny: 300;
+  --font-normal: 500;
+  --font-medium: 600;
+  --font-bold: 700;
+  /* Margins  */
+  --sp-0-5: 0.5rem;
+  --sp-0-75: 0.75rem;
+  --sp-1: 1rem;
+  --sp-1-5: 1.5rem;
+  --sp-2: 2rem;
+  --sp-2-5: 2.5rem;
+  --sp-3: 3rem;
+
+  /* z index  */
+  --z-fixed: 2;
+  --z-modal: 5;
 }
 
-.title {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
 }

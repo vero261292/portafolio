@@ -1,0 +1,84 @@
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.skills__title{
+    font-size: var(--big-font);
+    font-weight: var(--font-bold);
+    color: var(--principal-text);
+}
+
+.skills__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1em;
+    background: var(--principal-text);
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    gap: 1em;
+    
+}
+
+.skills__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--secundary-text);
+    border-radius: 1em;
+    width: 13em;
+    height: 5em;
+}
+
+.skills__icon{
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 5em;    
+}
+
+.skills__name{
+    font-size: var(--medium-font);
+    font-weight: var(--font-medium);
+}
+
+.bxl-html5{
+    color: #F16529;
+}
+
+.bxl-css3{
+    color:#297BFF ;
+}
+
+.bxl-javascript{
+   color: #F7E018;
+   background-color: black;
+    background-clip: content-box;
+}
+
+.bxl-react{
+    color: #61DAFB;
+}
+
+.bxl-nodejs{
+    color:#23B45D ;
+}
+
+.icon{
+    width: 4em;
+    height: 4em;
+    padding: 0.3em;
+}
+
+.Elipse1{
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+
+}
