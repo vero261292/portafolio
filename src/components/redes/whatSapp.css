@@ -1,0 +1,27 @@
+.fon__whatSapp{
+  position: relative;
+  left: 35px;
+  top: 55px;
+  bottom: 0px;
+  width: 60px;
+  height: 60px;
+  background-image: radial-gradient(rgba(97, 240, 97, 0.6), rgba(113, 229, 113, 0.7));
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1.5px solid rgba(255, 255, 255, 0.549);
+  box-shadow: 4px -4px 8px rgb(160, 202, 160);
+}
+.bt{
+  color: rgb(211, 210, 210);
+  position: relative;
+  left: 15px;
+  top: 10%;
+  font-size: 30px;
+}
+.whatSapp{
+  left: 6px;
+  position: relative;
+  color: #fff;
+  font-size: 10px;
+  bottom: 4px;
+}

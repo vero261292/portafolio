@@ -8,6 +8,7 @@ const HomePage = () => {
           <h2 className='presentation__title'>Hola</h2>
           <h2 className='presentation__subtitle'>
             Me llamo Veronica Perez, soy una desarrollador FullStack
+            con enfoque en FronEnd . . .
           </h2>
         </div>
         <img className='robot-img' src='img/Group80.svg' alt='' />

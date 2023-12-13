@@ -7,7 +7,7 @@ const Heder = () => {
       <div className='header'>
         <Link to='/' className='header__logo'>
           <div className='header__logo-container'>
-            <h2 className='header__logo-text'>VERO PEREZ</h2>
+            <h2 className='header__logo-text'>VERO PEREZ </h2>
           </div>
         </Link>
         <nav className='header__nav'>

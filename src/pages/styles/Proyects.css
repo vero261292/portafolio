@@ -1,6 +1,45 @@
+.container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.proyectos{
-    
-    color: aliceblue;
+::-webkit-scrollbar {
+  width: 0;
+}
+.card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  border: -10px solid rgb(128, 141, 164);
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(39, 39, 214, 0.2), rgb(114, 172, 219));
+  left: 20px;
+  top: 120px;
+  box-shadow: 2px -6px 12px rgb(77, 133, 237);
+}
 
+.img {
+  position: relative;
+  width: 246px;
+  height: 205px;
+  padding: 26px;
+  border-radius: 15px;
+  left: 2px;
+}
+.title {
+  color: var(--principal-text);
+  text-align: center;
+  margin: 15px;
+}
+
+.link {
+  position: relative;
+  font-size: 20px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.035), rgb(103, 117, 211));
+  color: rgba(26, 46, 158, 0.922);
+  padding: 15px;
+  left: 50px;
+  top: 30px;  
 }

@@ -45,8 +45,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: var(--primary-color);
-  overflow: hidden;
+ background-color: var(--primary-color);
 }
 
 h1,
@@ -80,3 +79,6 @@ input {
 a {
   text-decoration: none;
 }
+
+
+
