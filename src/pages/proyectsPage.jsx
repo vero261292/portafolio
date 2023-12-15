@@ -36,7 +36,7 @@ const proyectsPage = () => {
 
   return (
     <div className='container'>
-      <div className='card'>
+      <div className='card num'>
         <h3 className='title'> proyecto 1</h3>
         {proyects.map((proyect, index) => (
           <proyects key={index} {...proyect} />

@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  gap: 2em;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -24,7 +24,7 @@
   position: relative;
   width: 246px;
   height: 205px;
-  padding: 26px;
+  padding: 2px;
   border-radius: 15px;
   left: 2px;
 }
@@ -42,4 +42,9 @@
   padding: 15px;
   left: 50px;
   top: 30px;  
+}
+
+.card:hover{
+  transform: rotate(4deg);
+  transform: scale(1.03);
 }
