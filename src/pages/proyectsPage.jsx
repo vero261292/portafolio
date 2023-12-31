@@ -42,9 +42,13 @@ const proyectsPage = () => {
           <proyects key={index} {...proyect} />
         ))}
         <div className='cads-img'>
-          <img className='img' src='../../public/img/foto-galleta.png' alt='' />
+          <img
+            onError={e => (e.target.alt = 'no disponible')}
+            className='img'
+            src='../../public/img/foto-galleta.png'
+            alt=''
+          />
           <div>
-            <img src="onError={(e)=> e.target.alt= 'no disponible'}" alt='' />
             <a className='link' href='http://proyecto-galleta-de-la-suerte.netlify.app'>
               link al proyecto
             </a>
@@ -57,7 +61,12 @@ const proyectsPage = () => {
           <proyects key={index} {...proyect} />
         ))}
         <div className='cads-img'>
-          <img className='img' src='../../public/img/users.png' alt='' />
+          <img
+            onError={e => (e.target.alt = 'no disponible')}
+            className='img'
+            src='../../public/img/users.png'
+            alt=''
+          />
           <div>
             <a className='link' href='https://app-de-usuarios.netlify.app'>
               link al proyecto
@@ -71,7 +80,12 @@ const proyectsPage = () => {
           <proyects key={index} {...proyect} />
         ))}
         <div className='cads-img'>
-          <img className='img' src='../../public/img/rick.png' alt='' />
+          <img
+            onError={e => (e.target.alt = 'no disponible')}
+            className='img'
+            src='../../public/img/rick.png'
+            alt=''
+          />
           <div>
             <a className='link' href='https://entregablenum3.netlify.app'>
               link al proyecto
@@ -85,7 +99,12 @@ const proyectsPage = () => {
           <proyects key={index} {...proyect} />
         ))}
         <div className='cads-img'>
-          <img className='img' src='../../public/img/clima.png' alt='' />
+          <img
+            onError={e => (e.target.alt = 'no disponible')}
+            className='img'
+            src='../../public/img/clima.png'
+            alt=''
+          />
           <div>
             <a className='link' href='https://proyectoclima261292.netlify.app'>
               link al proyecto
@@ -99,7 +118,12 @@ const proyectsPage = () => {
           <proyects key={index} {...proyect} />
         ))}
         <div className='cads-img'>
-          <img className='img' src='../../public/img/ecomerce.png' alt='' />
+          <img
+            onError={e => (e.target.alt = 'no disponible')}
+            className='img'
+            src='../../public/img/ecomerce.png'
+            alt=''
+          />
           <div>
             <a className='link' href='https://spectacular-crumble-c98864.netlify.app'>
               link al proyecto
@@ -112,4 +136,5 @@ const proyectsPage = () => {
 }
 
 export default proyectsPage
+
 
