@@ -81,9 +81,9 @@ const proyectsPage = () => {
         ))}
         <div className='cads-img'>
           <img
-            onError={e => (e.target.alt = 'no disponible')}
             className='img'
             src='../../public/img/rick.png'
+            onError={e => (e.target.alt = 'no disponible')}
             alt=''
           />
           <div>
@@ -136,5 +136,6 @@ const proyectsPage = () => {
 }
 
 export default proyectsPage
+
 
 
