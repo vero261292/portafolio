@@ -44,6 +44,7 @@ const proyectsPage = () => {
         <div className='cads-img'>
           <img className='img' src='../../public/img/foto-galleta.png' alt='' />
           <div>
+            <img src="onError={(e)=> e.target.alt= 'no disponible'}" alt='' />
             <a className='link' href='http://proyecto-galleta-de-la-suerte.netlify.app'>
               link al proyecto
             </a>
@@ -111,3 +112,4 @@ const proyectsPage = () => {
 }
 
 export default proyectsPage
+
