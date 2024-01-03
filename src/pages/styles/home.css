@@ -52,16 +52,26 @@
 }
 
 .robot-img{
-    width: 55em;
+    width: 35em;
     height: auto;
     grid-area: 1/2/3/3;
     align-self: start;
     overflow: hidden;
     position: absolute;
-    top: -15em;
-    right: -10em;
+    top: 10em;
+    right: 1em;
 
 }
+
+.ellipse{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    bottom: 400px;
+    right: 620px;
+}
+
+
 
 
 

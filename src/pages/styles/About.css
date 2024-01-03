@@ -14,7 +14,7 @@
 }
 
 .about__imagenCode {
-  width: 50%;
+  width: 38%;
   height: auto;
   flex-grow: 1;
 }
@@ -32,8 +32,17 @@
 }
 
 .ellipse1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  height: 400px;
+    position: relative;
+    top: -500px;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.ellipse2{
+  height: 400px;
+    position: relative;
+    top: -600px;
+    left: 150px;
     transform: translate(-50%, -50%);
 }

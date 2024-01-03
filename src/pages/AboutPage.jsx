@@ -18,7 +18,8 @@ const AboutPage = () => {
         </div>
         <img className='about__imagenCode' src='/ImagenCode.png' alt='' />
       </div>
-        <img className='ellipse1' src="img/Ellipse-1.svg" alt="" />
+        <img className='ellipse1' src="/Ellipse-1.svg" alt="" />
+        <img className='ellipse2' src="/Ellipse-1.svg" alt="" />
     </>
   )
 }

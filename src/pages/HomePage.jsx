@@ -11,15 +11,18 @@ const HomePage = () => {
             con enfoque en FronEnd . . .
           </h2>
         </div>
-        <img className='robot-img' src='img/Group80.svg' alt='' />
+        <img className='robot-img' src='/astro.png' alt='' />
         <p className='presentation__description'>
           Soy probablemente el desarrollador más apasionado con el que jamás llegarás a
           trabajar. Si tienes un gran proyecto que necesita unas habilidades increíbles, soy tu
           chica adecuada para este trabajo.
         </p>
+        <img className='ellipse' src="/Ellipse.svg" alt="" />
+        <img className='ellipse2' src="/Ellipse.svg" alt="" />
       </div>
     </>
   )
 }
 
 export default HomePage
+
