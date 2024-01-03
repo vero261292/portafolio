@@ -10,7 +10,7 @@ import WhatSapp from "./components/redes/WhatSapp";
 
 function App() {
   return (
-    <div>
+    <div className="conteiner">
       <Heder />
       <WhatSapp />
       <Routes>
