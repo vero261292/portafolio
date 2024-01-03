@@ -16,7 +16,7 @@ const AboutPage = () => {
             posibles colaboraciones.
           </p>
         </div>
-        <img className='about__imagenCode' src='img/ImagenCode.png' alt='' />
+        <img className='about__imagenCode' src='/ImagenCode.png' alt='' />
       </div>
         <img className='ellipse1' src="img/Ellipse-1.svg" alt="" />
     </>
@@ -24,3 +24,4 @@ const AboutPage = () => {
 }
 
 export default AboutPage
+
