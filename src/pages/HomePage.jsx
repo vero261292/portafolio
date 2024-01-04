@@ -17,8 +17,7 @@ const HomePage = () => {
           trabajar. Si tienes un gran proyecto que necesita unas habilidades increíbles, soy tu
           chica adecuada para este trabajo.
         </p>
-        <img className='ellipse' src="/Ellipse.svg" alt="" />
-        <img className='ellipse2' src="/Ellipse.svg" alt="" />
+        
       </div>
     </>
   )
