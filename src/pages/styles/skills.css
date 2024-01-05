@@ -14,15 +14,17 @@
     color: var(--principal-text);
 }
 
-.skills__list{
+.skills__list{   
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 1em;
     background: var(--principal-text);
     flex-wrap: wrap;
-    padding: 0.5rem;
+    padding: 1rem;
     gap: 1em;
+    max-width: 100%;
+    height: auto;
     
 }
 

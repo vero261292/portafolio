@@ -52,14 +52,15 @@
 }
 
 .robot-img{
-    width: 35em;
+    display: flex;
+    max-width: 100%;
     height: auto;
     grid-area: 1/2/3/3;
-    align-self: start;
+    align-self:flex-start;
     overflow: hidden;
-    position: absolute;
-    top: 10em;
-    right: 1em;
+    position:relative;
+    top: 30px;
+    
 
 }
 

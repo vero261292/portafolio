@@ -85,12 +85,11 @@ a {
 .claro {
   height: 100%;
   width: 100%;
-  background-image: radial-gradient(rgba(5, 155, 10, 0.922), rgba(83, 196, 117, 0.608));
-  color: #000;
+  background-image: radial-gradient(rgb(11, 124, 5), rgba(40, 243, 101, 0.608));
 }
 
 .oscuro {
-  background-color: rgba(1, 1, 1, 0.77);
+  background-image: radial-gradient(rgb(0, 0, 0), #000000b1);
 }
 
  .bottonn{

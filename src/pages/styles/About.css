@@ -5,6 +5,10 @@
   padding: 0 2%;
   gap: 1em;
   align-items: center;
+  justify-content: space-between;
+}
+.about::-webkit-scrollbar{
+    scrollbar-width: none;
 }
 
 .about__title {
@@ -14,35 +18,24 @@
 }
 
 .about__imagenCode {
-  width: 38%;
+  width: 100%;
   height: auto;
-  flex-grow: 1;
+  flex-direction: column;
 }
 
 .about__description {
   font-size: var(--medium-font);
   font-weight: var(--font-normal);
   color: var(--secundary-text);
+  color: rgba(152, 71, 219, 0.928);
 }
 
 .about__container-info {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  
+  
 }
 
-.ellipse1{
-  height: 400px;
-    position: relative;
-    top: -500px;
-    left: 100%;
-    transform: translate(-50%, -50%);
-}
 
-.ellipse2{
-  height: 400px;
-    position: relative;
-    top: -600px;
-    left: 150px;
-    transform: translate(-50%, -50%);
-}
+

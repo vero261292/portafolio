@@ -18,13 +18,13 @@
   background-image: linear-gradient(rgba(39, 39, 214, 0.2), rgb(114, 172, 219));
   left: 20px;
   top: 120px;
-  box-shadow: 2px -2px 18px  rgb(4, 5, 7);
+  box-shadow: 2px 2px 28px  rgb(4, 5, 7);
 }
 
 .img {
   position: relative;
-  width: 246px;
-  height: 205px;
+  max-width: 100%;
+  height: auto;
   padding: 2px;
   border-radius: 15px;
   left: 2px;
